@@ -8,10 +8,10 @@ This package contains 4 nodes:
 * The lidar node 
 * The tunnel node which can be used to test the algorithm for the movement in a tunnel
 
-The control node contains a PID controller for both lane following and the movement in the tunnel algorithm, an algorithm for the obstacle avoidance present in the lane. This node also does the transitions to go through different challenges.  
-The camera node is in charge of pre processing the compressed image data to retrieve both lanes and their centroids which is then published as information through the /centroid topic. This topic also contains 2 other information necessary for the lane following algorithm.  
-The lidar node contains the pre processed data for the necessary ranges, this nodes also changes the "inf" character sent by the lidar when the robot is too close or too far away from an object. The "inf" character is changed to the max range value of the lidar. This node was supposed to publish this data to the topic /lidar_data but the data that was being sent were multiple arrays. Thus function in charge of the pre process of data were sent inside to the control node directly. 
-The tunnel node contains the algorithm for the movement in the tunnel which can be tested separetly by placing the robot infront of the tunnel.  
+The **control node** contains a PID controller for both lane following and the movement in the tunnel algorithm, an algorithm for the obstacle avoidance present in the lane. This node also does the transitions to go through different challenges.  
+The **camera node** is in charge of pre processing the compressed image data to retrieve both lanes and their centroids which is then published as information through the /centroid topic. This topic also contains 2 other information necessary for the lane following algorithm.    
+The **lidar node** contains the pre processed data for the necessary ranges, this nodes also changes the "inf" character sent by the lidar when the robot is too close or too far away from an object. The "inf" character is changed to the max range value of the lidar. This node was supposed to publish this data to the topic /lidar_data but the data that was being sent were multiple arrays. Thus function in charge of the pre process of data were sent inside to the control node directly.   
+The **tunnel node** contains the algorithm for the movement in the tunnel which can be tested separetly by placing the robot infront of the tunnel.  
 
 This package also contains : 
 * Two launch files with a parameter called challenge which is set to either "challenge1" or "challenge2" depending on the launch file
