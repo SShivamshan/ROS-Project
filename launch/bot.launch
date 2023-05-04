@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <param name = "linear_scale" value="0.5"/>
+    <param name = "angular_scale" value="0.5"/>
+    <param name = "cmd_vel" value="/cmd_vel"/>
+
+    <node pkg="mybot_teleop" name="teleop" type="mybot_teleop.py" output="screen"
+    required="true">
+    </node>
+      
+
+</launch>
