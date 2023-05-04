@@ -20,7 +20,8 @@ For the first challenge, please launch the challenge1.launch, this will start th
 For the second challenge, launch the challenge2.launch, this will start the robot at the entrance of tunnel and the robot would at the entrance of the third challenge. 
 
 **TO DO :**
-* The challenge n°3 needs to be implemented the algorithm works but the robot only avoids the obstacles and doesn't turn towards the goal posts. 
+* The challenge n°3 needs to be implemented, the algorithm works but the robot only avoids the obstacles and doesn't turn towards the goal posts or even goes to the goal posts.
 * Find the transition conditions :
     * For the robot to go from the line following from challenge 1 to enter the tunnel (challenge 2)
     * After the line following from the challenge 2 to enter challenge 3
+* The lidar node doesn't publish yet the pre processed data since the data are arrays (find a method to publish muliple arrays and how to use them once we get it). 
