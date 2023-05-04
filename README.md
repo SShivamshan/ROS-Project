@@ -24,4 +24,7 @@ For the second challenge, launch the challenge2.launch, this will start the robo
 * Find the transition conditions :
     * For the robot to go from the line following from challenge 1 to enter the tunnel (challenge 2)
     * After the line following from the challenge 2 to enter challenge 3
-* The lidar node doesn't publish yet the pre processed data since the data are arrays (find a method to publish muliple arrays and how to use them once we get it). 
+* The lidar node doesn't publish yet the pre processed data since the data are arrays (find a method to publish muliple arrays and how to use them once we get it).   
+
+The course in question :   
+![alt text](https://github.com/SShivamshan/ROS-Project/blob/main/COURSE.png?raw=true)
