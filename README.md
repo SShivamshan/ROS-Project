@@ -35,3 +35,9 @@ The course in question :
 
 
 On the real robot, we managed to finish the first and second challenge separately without any transition in between and was quite blocked for the third challenge. For the simulated robot, the robot finishes the entire first challenge and stops at the entrance of the tunnel. As for the second challenge, the robot moves around the tunnel and gets out of the tunnel and then enters the lane following algorithm and ends at the entrance of the third challenge. 
+
+Installation:
+* Change your directory to your catkin workspace 
+<br>`cd catkin_ws/src`</br>
+* Clone this repository inside 
+<br>`git clone`</br>
