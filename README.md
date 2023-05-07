@@ -41,9 +41,9 @@ Installation:
 <br>`cd catkin_ws/src`</br>
 * Clone this repository inside 
 <br>`git clone https://github.com/SShivamshan/ROS-Project.git`</br>
-* Build the package 
-<br>`cd ..`</br>
-<br>`catkin_make`</br>
-* Source the package from your root 
-<br>`cd ~`</br>
-<br>`source ../../catkin_ws/devel/setup.bash`</br>
+* Build the package   
+`cd ..`  
+`catkin_make`    
+* Source the package from your root  
+`cd ~`    
+`source ../../catkin_ws/devel/setup.bash`
