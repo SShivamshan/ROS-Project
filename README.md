@@ -40,4 +40,10 @@ Installation:
 * Change your directory to your catkin workspace 
 <br>`cd catkin_ws/src`</br>
 * Clone this repository inside 
-<br>`git clone`</br>
+<br>`git clone https://github.com/SShivamshan/ROS-Project.git`</br>
+* Build the package 
+<br>`cd ..`</br>
+<br>`catkin_make`</br>
+* Source the package from your root 
+<br>`cd ~`</br>
+<br>`source ../../catkin_ws/devel/setup.bash`</br>
