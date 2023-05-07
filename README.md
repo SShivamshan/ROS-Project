@@ -2,8 +2,6 @@
 
 For the ROS and experimental robotics course, we were tasked with programming the turlebot burger 3 to drive autonomously around a circuit.The implemented algorithm should also works for both the real robot and the simulated environment.  This circuit is divided into 3 challenges. The first challenge is to follow the lane passing and avoiding the obstacles present in it's way to get to the entrance of the tunnel. The second challenge is to move through the tunnel without touching the sides of the tunnel. Finally the third challenge consist of moving through a obstructed environment and to go through two goal posts.  
 
-**ROS :** ROS noetic   
-
 This package contains 4 nodes:
 * The camera node (pre process the data and publishes the necessary informations)
 * The control node
@@ -37,6 +35,11 @@ The course in question :
 
 
 On the real robot, we managed to finish the first and second challenge separately without any transition in between and was quite blocked for the third challenge. For the simulated robot, the robot finishes the entire first challenge and stops at the entrance of the tunnel. As for the second challenge, the robot moves around the tunnel and gets out of the tunnel and then enters the lane following algorithm and ends at the entrance of the third challenge. 
+
+Requriements :
+* **ROS noetic**
+* Ubuntu 20.04
+
 
 Installation:
 * Change your directory to your catkin workspace 
