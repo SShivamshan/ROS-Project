@@ -1,4 +1,4 @@
-# Navigation system for turtlebot burger 3 in a gazebo environment
+# Navigation system for turtlebot burger 3 in a gazebo environment and in real environment
 
 For the ROS and experimental robotics course, we were tasked with programming the turlebot burger 3 to drive autonomously around a circuit.The implemented algorithm should also works for both the real robot and the simulated environment.  This circuit is divided into 3 challenges. The first challenge is to follow the lane passing and avoiding the obstacles present in it's way to get to the entrance of the tunnel. The second challenge is to move through the tunnel without touching the sides of the tunnel. Finally the third challenge consist of moving through a obstructed environment and to go through two goal posts.  
 
